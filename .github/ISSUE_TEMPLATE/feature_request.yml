@@ -1,6 +1,6 @@
 name: 🚀 Feature request
 description: Sugira uma funianalidade/ideia para este projeto
-title: "[Feature Request / Suggestion]: "
+title: "[Feat]: "
 labels: ["enhancement"]
 body:
   - type: markdown
