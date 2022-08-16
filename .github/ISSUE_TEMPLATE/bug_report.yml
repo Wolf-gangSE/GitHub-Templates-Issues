@@ -42,7 +42,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Como reproduzir o preblema?
+      label: Como reproduzir o problema?
       description: Descreva o passo-a-passo para reproduzir esse problema. Acrescente qualquer código relevante.
       render: shell
     validations:
