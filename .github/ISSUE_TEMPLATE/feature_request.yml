@@ -17,7 +17,7 @@ body:
     validations:
       required: true
       
-  - type: markdown
+  - type: textarea
     id: Suggestion
     attributes:
       label: Sugestão / Solicitação de Funcionalidade

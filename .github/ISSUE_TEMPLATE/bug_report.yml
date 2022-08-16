@@ -3,7 +3,7 @@ description: Reporte um bug
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
-  - octocat
+  - Wolf-gangSE 
 body:
   - type: markdown
     attributes:
@@ -35,11 +35,15 @@ body:
       label: Seu ambiente.
       description: Descreva melhor o ambiente que você utilizou para reproduzir o problema.
       placeholder: (plataforma, sistema operacional, browser, etc.)
-      render: shell      
+      render: shell    
+    validations:
+      required: true  
 
-  - type: markdown
+  - type: textarea
     id: logs
     attributes:
       label: Como reproduzir o preblema?
       description: Descreva o passo-a-passo para reproduzir esse problema. Acrescente qualquer código relevante.
       render: shell
+    validations:
+      required: true
