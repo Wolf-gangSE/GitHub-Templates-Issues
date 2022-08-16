@@ -15,7 +15,7 @@ body:
       description: Descreva de forma clara e concisa qual é esse problema.
       placeholder: Eu sempre fico frustrado quando [...]
     validations:
-      required: true
+      required: false
       
   - type: textarea
     id: Suggestion
